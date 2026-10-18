@@ -12,7 +12,7 @@ async function runTrafficCheck() {
     });
 
     console.log('[*] Directing sandbox traffic to verification endpoint...');
-    await page.goto('https://example.com'); 
+    await page.goto('https://www.sportybet.com/ng/m/games/spribe/aviator'); 
 
     console.log('[+] Evaluation tracking finished smoothly.');
     await browser.close();
